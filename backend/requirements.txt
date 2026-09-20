@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+anthropic
+faiss-cpu
+fastembed
+PyMuPDF
+pdfplumber
+Pillow
+sqlalchemy
+aiosqlite
+pydantic
+pydantic-settings
+python-multipart
+httpx
+python-dotenv
+langdetect
+reportlab

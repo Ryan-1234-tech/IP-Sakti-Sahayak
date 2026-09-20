@@ -1,0 +1,18 @@
+# IP-SAKTI Sahayak - Multilingual + Voice Module Requirements
+
+# Core Multilingual Translation & NLP
+deep-translator>=1.11.4
+gTTS>=2.5.4
+SpeechRecognition>=3.17.0
+
+# Optional LLM / API Clients
+requests>=2.31.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+
+# Testing & Dev
+pytest>=8.0.0
+
+# Web UI & Audio (Optional for web demo)
+flask>=3.0.0

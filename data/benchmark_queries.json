@@ -1,0 +1,107 @@
+[
+  {
+    "id": "q01_standard",
+    "query": "Maine Ayurvedic medicine banayi hai, isko patent kaise karu?",
+    "expected_language": "hinglish",
+    "expected_intent": "patent_ayurvedic_traditional_knowledge",
+    "required_keywords": ["ayurvedic", "patent"]
+  },
+  {
+    "id": "q02_hindi_devanagari",
+    "query": "आयुर्वेदिक दवा का पेटेंट कैसे कराएं?",
+    "expected_language": "hindi",
+    "expected_intent": "patent_ayurvedic_traditional_knowledge",
+    "required_keywords": ["ayurvedic", "patent"]
+  },
+  {
+    "id": "q03_trademark_fees",
+    "query": "Brand name aur logo register karne ke liye kitna fees lagta hai?",
+    "expected_language": "hinglish",
+    "expected_intent": "fee_structure_and_subsidies",
+    "required_keywords": ["trademark", "fee"]
+  },
+  {
+    "id": "q04_provisional",
+    "query": "Provisional patent file karne ke baad permanent patent kitne din me file karna hota hai?",
+    "expected_language": "hinglish",
+    "expected_intent": "provisional_patent_filing",
+    "required_keywords": ["provisional", "patent"]
+  },
+  {
+    "id": "q05_software",
+    "query": "Apne mobile app aur software algorithm ka patent kaise le sakte hain?",
+    "expected_language": "hinglish",
+    "expected_intent": "patent_software_cr_inventions",
+    "required_keywords": ["software", "patent"]
+  },
+  {
+    "id": "q06_english_standard",
+    "query": "What is the procedure to file a patent for medical devices in India?",
+    "expected_language": "english",
+    "expected_intent": "general_patent_inquiry",
+    "required_keywords": ["patent", "medical device"]
+  },
+  {
+    "id": "q07_infringement",
+    "query": "Mera brand name kisi aur ne copy kar liya hai, legal notice kaise bheje?",
+    "expected_language": "hinglish",
+    "expected_intent": "ip_enforcement_infringement",
+    "required_keywords": ["brand", "infringement"]
+  },
+  {
+    "id": "q08_startup_subsidy",
+    "query": "Startup aur MSME ko patent file karne me kitna discount milta hai?",
+    "expected_language": "hinglish",
+    "expected_intent": "fee_structure_and_subsidies",
+    "required_keywords": ["startup", "fee"]
+  },
+  {
+    "id": "q09_tanglish",
+    "query": "Patent apply panna enna documents thevai?",
+    "expected_language": "tanglish",
+    "expected_intent": "general_patent_inquiry",
+    "required_keywords": ["patent", "document"]
+  },
+  {
+    "id": "q10_validity",
+    "query": "Hamari nayi machine ka patent India me kitne saal tak valid rehta hai?",
+    "expected_language": "hinglish",
+    "expected_intent": "ip_validity_timeline",
+    "required_keywords": ["patent", "validity"]
+  },
+  {
+    "id": "q11_typo_slang_hard",
+    "query": "Mne ek aurbedic dwayi bnai h usko srkar se bchana h koi tarika h kya",
+    "expected_language": "hinglish",
+    "expected_intent": "patent_ayurvedic_traditional_knowledge",
+    "required_keywords": ["ayurvedic", "patent"]
+  },
+  {
+    "id": "q12_zero_keyword_ambiguous",
+    "query": "Bhai koi aisi scheme batao jisse mera banaya hua gadget market me koi aur na bech sake",
+    "expected_language": "hinglish",
+    "expected_intent": "provisional_patent_filing",
+    "required_keywords": ["gadget", "protection"]
+  },
+  {
+    "id": "q13_mixed_slang_ambiguous",
+    "query": "Startup innovation policy guidelines kya hai",
+    "expected_language": "hinglish",
+    "expected_intent": "fee_structure_and_subsidies",
+    "required_keywords": ["startup", "policy"]
+  },
+  {
+    "id": "q14_phonetic_shorthand",
+    "query": "Kya hum form 1 online bhr skte h aur kitna kharcha aega",
+    "expected_language": "hinglish",
+    "expected_intent": "fee_structure_and_subsidies",
+    "required_keywords": ["form 1", "fee"]
+  },
+  {
+    "id": "q15_english_legal_edge",
+    "query": "Can a computer program with technical effect be patented under Section 3(k)?",
+    "expected_language": "english",
+    "expected_intent": "patent_software_cr_inventions",
+    "required_keywords": ["section 3(k)", "computer program"]
+  }
+]
